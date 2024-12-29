@@ -1,0 +1,451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+}
+
+.clr {
+  clear: both;
+}
+
+/* shard */
+
+/* ____start navbar____ */
+
+.nav-container {
+  width: 100%;
+  margin: auto;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+}
+.nav-logo {
+  float: left;
+  margin-top: 10px;
+}
+
+.nav-logo {
+  width: 170px;
+}
+.nav-logo img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links ul {
+  list-style: none;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.nav-links li {
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a:hover {
+  color: #8e7754;
+}
+
+/* ____End navbar____ */
+
+/* ____start home____ */
+
+.home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  color: white;
+  background-size: cover;
+  height: 140vh;
+  overflow: hidden;
+}
+
+.home-layer {
+  background-color: rgba(0, 0, 0, 0.247);
+  height: 140vh;
+  overflow: hidden;
+}
+
+.home-content {
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+.home-content h1 {
+  font-size: 80px;
+  margin-block: 30px;
+}
+.home-content p {
+  font-size: 22px;
+  margin-block: 30px;
+  font-family: "Alegreya Sans";
+}
+
+.home-content button {
+  padding: 17px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home-content .btn-learn {
+  background-color: #8e7754;
+  color: white;
+  font-weight: bold;
+  border: 2px solid transparent;
+  margin-right: 10px;
+}
+
+.btn-learn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-contact {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-contact:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-content a {
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  width: 32px;
+  height: 50px;
+  border-radius: 24px;
+  text-indent: -9999px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+/* ____end home____ */
+
+/* ____ start who-container____ */
+.who-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.who-img {
+  width: 50%;
+  float: left;
+}
+
+.who-img img {
+  width: 100%;
+  margin: auto;
+  padding-right: 25px;
+}
+.who-content {
+  width: 50%;
+  float: right;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.who-content h2 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.who-list {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.who-list li {
+  list-style: none;
+}
+
+.who-list img {
+  width: 10%;
+  border-radius: 50%;
+  border: 1px solid #8e77543d;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/* ____ end who container____ */
+
+/* ____ start location-container____ */
+.location-container {
+  background-color: #f8f8f8;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.location-content {
+  width: 90%;
+  margin: auto;
+}
+
+.location {
+  width: 50%;
+  float: left;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.location h2 {
+  margin-bottom: 50px;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.location p {
+  color: rgba(0, 0, 0, 0.651);
+}
+
+.location-img {
+  width: 50%;
+  float: right;
+}
+
+.location-img img {
+  width: 100%;
+  padding: 20px;
+}
+/* ____ end location container____ */
+
+/* ____ start ourbaking container____ */
+
+.ourbaking-container {
+  width: 90%;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.ourbaking-imges {
+  width: 100%;
+  margin-top: 70px;
+}
+.ourbaking-content h2 {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.ourbaking-content p {
+  color: rgba(0, 0, 0, 0.651);
+}
+
+.ourbaking-imges p {
+  color: rgba(0, 0, 0, 0.774);
+}
+.ourbaking-imges .our {
+  width: calc(100% / 3);
+  float: left;
+  padding-inline: 20px;
+  box-sizing: border-box;
+}
+.ourbaking-imges img {
+  width: 100%;
+}
+.our h3 {
+  margin-block: 30px;
+}
+/* ____ end ourbaking container____ */
+
+/* ____ start contact information____ */
+
+.contact-information-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.contact-img {
+  float: right;
+}
+
+.contact-content {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  padding-left: 20px;
+}
+.contact-content h2 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.contact-list {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.contact-list li {
+  list-style: none;
+}
+
+.contact-list img {
+  width: 8%;
+  border-radius: 50%;
+  border: 1px solid #8e77543d;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: #8e7754;
+  cursor: pointer;
+}
+
+/* ____ end contact information____ */
+
+/* ____ start about us____ */
+
+.about-us-container {
+  width: 100%;
+  background-color: #403d38;
+  margin-top: 200px;
+  color: rgba(211, 204, 204, 0.651);
+}
+
+.about-content {
+  width: 90%;
+  margin: auto;
+}
+.about-content div {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.about-content h4 {
+  color: white;
+}
+
+.about-content hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+.about-us h4 {
+  margin-block: 40px;
+}
+
+.special h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.special li {
+  list-style: none;
+  padding-block: 10px;
+}
+
+.special img {
+  width: 6%;
+  vertical-align: middle;
+}
+
+.Opening-hours li {
+  padding-block: 20px;
+}
+
+.Opening-hours h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.Opening-hours li {
+  list-style: none;
+  padding-block: 15px;
+}
+
+.Opening-hours img {
+  width: 6%;
+  vertical-align: middle;
+}
+.Contact-details {
+  position: relative;
+}
+
+.Contact-details h4 {
+  margin-top: 40px;
+}
+
+.Contact-details li {
+  list-style: none;
+  padding-block: 20px;
+  cursor: pointer;
+}
+.Contact-details li:hover {
+  color: white;
+}
+
+.Contact-details img {
+  width: 12%;
+  vertical-align: middle;
+}
+.map img {
+  position: absolute;
+  top: 170px;
+  right: 0;
+  width: 250px;
+  height: 150px;
+  opacity: 0.3;
+}
+/* ____ end about us____ */
+
+/* ____ start footer____ */
+
+.footer {
+  background-color: #353330;
+  width: 100%;
+  text-align: center;
+  color: rgba(211, 204, 204, 0.651);
+}
+.footer-bakery {
+  width: 25%;
+  margin: auto;
+}
+
+.footer-bakery img {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer-social img {
+  width: 3%;
+  border-radius: 50%;
+  background-color: #494640;
+  margin-inline: 5px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: rgb(70, 70, 158);
+}
+.google:hover {
+  background-color: rgb(160, 55, 14);
+}
+.linkedin:hover {
+  background-color: #0275d8;
+}
+.twitter:hover {
+  background-color: rgb(87, 87, 179);
+}
+
+/* ____ end footer____ */
